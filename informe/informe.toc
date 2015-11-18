@@ -1,0 +1,22 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{1}
+\contentsline {section}{\numberline {2}Desarrollo}{2}
+\contentsline {subsection}{\numberline {2.1}Blur}{2}
+\contentsline {subsubsection}{\numberline {2.1.1}Implementaci\IeC {\'o}n en assembler 1}{2}
+\contentsline {subsubsection}{\numberline {2.1.2}Implementaci\IeC {\'o}n en assembler 2}{3}
+\contentsline {subsection}{\numberline {2.2}Merge}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Implementaci\IeC {\'o}n en assembler 1}{4}
+\contentsline {subsubsection}{\numberline {2.2.2}Implementaci\IeC {\'o}n en assembler 2}{6}
+\contentsline {subsection}{\numberline {2.3}HSL}{7}
+\contentsline {subsubsection}{\numberline {2.3.1}Implementaci\IeC {\'o}n en assembler 1}{8}
+\contentsline {subsubsection}{\numberline {2.3.2}Implementaci\IeC {\'o}n en assembler 2}{9}
+\contentsline {section}{\numberline {3}Experimentaci\IeC {\'o}n}{12}
+\contentsline {subsection}{\numberline {3.1}Blur}{12}
+\contentsline {subsubsection}{\numberline {3.1.1}Metodo de iteraci\IeC {\'o}n}{13}
+\contentsline {subsection}{\numberline {3.2}Merge}{14}
+\contentsline {subsection}{\numberline {3.3}HSL}{15}
+\contentsline {subsubsection}{\numberline {3.3.1}Implementaci\IeC {\'o}n}{15}
+\contentsline {subsubsection}{\numberline {3.3.2}Variaci\IeC {\'o}n 1}{16}
+\contentsline {subsubsection}{\numberline {3.3.3}Variaci\IeC {\'o}n 2}{17}
+\contentsline {subsubsection}{\numberline {3.3.4}Experimentos Futuros}{17}
+\contentsline {section}{\numberline {4}Conclusiones y trabajo futuro}{18}

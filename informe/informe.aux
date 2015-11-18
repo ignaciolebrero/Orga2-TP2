@@ -1,0 +1,110 @@
+\relax 
+\catcode `"\active 
+\catcode `<\active 
+\catcode `>\active 
+\@nameuse{es@quoting}
+\catcode 95\active
+\select@language{spanish}
+\@writefile{toc}{\select@language{spanish}}
+\@writefile{lof}{\select@language{spanish}}
+\@writefile{lot}{\select@language{spanish}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Desarrollo}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Blur}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}Implementaci\IeC {\'o}n en assembler 1}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2}Implementaci\IeC {\'o}n en assembler 2}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Los pixeles que se deber\IeC {\'a}n cargar al procesar los pixeles marcados con rojo. Se cargaran en 6 xmm como se muestra a la derecha\relax }}{3}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{b2pixels}{{1}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Registros luego de desempaquetar\relax }}{4}}
+\newlabel{b2unpack}{{2}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Registros luego de sumar, sumamos en xmm0, xmm1 y xmm2 ya que no se van a necesitar para el ciclo siguiente.\relax }}{4}}
+\newlabel{b2unpack}{{3}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Pasos a seguir para cada pixel.\relax }}{4}}
+\newlabel{b2endprocess}{{4}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Merge}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Implementaci\IeC {\'o}n en assembler 1}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Contenido del registro xmm al levantar de memoria cuatro pixeles\relax }}{5}}
+\newlabel{primerXmm}{{5}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Contenido del registro xmm luego de utilizar la instrucci\IeC {\'o}n pshufb\relax }}{5}}
+\newlabel{segundoXmm}{{6}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Contenido resultante de desempaquetar parte alta y baja\relax }}{5}}
+\newlabel{tercerXmm}{{7}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Contenido resultante de desempaquetar parte alta y baja nuevamente\relax }}{5}}
+\newlabel{cuartoXmm}{{8}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Contenido de los registros utilizados para multiplicar por value los colores\relax }}{5}}
+\newlabel{value}{{9}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Implementaci\IeC {\'o}n en assembler 2}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Contenido de los registros utilizados para multiplicar en enteros\relax }}{6}}
+\newlabel{256value}{{10}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Contenido de los registros luego de hacer operaciones de desempaquetado\relax }}{6}}
+\newlabel{xmmAsm2}{{11}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}HSL}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Implementaci\IeC {\'o}n en assembler 1}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Organizaci\IeC {\'o}n de valores de entrada en registro XMM\relax }}{8}}
+\newlabel{lshValue6}{{12}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Contenido del registro XMM\relax }}{8}}
+\newlabel{lshValue5}{{13}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Contenido del registro XMM\relax }}{8}}
+\newlabel{lshValue4}{{14}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces ejemplo de estados usando cmp y and para el caso h mayor a 360\relax }}{9}}
+\newlabel{lshValue3}{{15}{9}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}Implementaci\IeC {\'o}n en assembler 2}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces (contenido del registro xmm al final del caso 3, para mas informaci\IeC {\'o}n sobre los casos ver el c\IeC {\'o}digo fuente)\relax }}{10}}
+\newlabel{lshValue}{{16}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Representaci\IeC {\'o}n del punto flotante en memoria\relax }}{10}}
+\newlabel{lshValue2}{{17}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Uso de pshufB\relax }}{11}}
+\newlabel{lshValue}{{18}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experimentaci\IeC {\'o}n}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Blur}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Rendimiento del filtro blur para im\IeC {\'a}genes negras\relax }}{12}}
+\newlabel{fig:exp1-5}{{19}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Rendimiento del filtro blur para im\IeC {\'a}genes normales.\relax }}{12}}
+\newlabel{fig:exp1-2}{{20}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Rendimiento del filtro blur para im\IeC {\'a}genes blancas.\relax }}{12}}
+\newlabel{fig:exp1-1}{{21}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Metodo de iteraci\IeC {\'o}n}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Rendimiento para rectangularH\relax }}{13}}
+\newlabel{fig:blurRH}{{22}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Rendimiento para rectangularW\relax }}{13}}
+\newlabel{fig:blurRW}{{23}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Merge}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Rendimiento para un value de 0.5, im\IeC {\'a}genes negras.\relax }}{14}}
+\newlabel{fig:exp1-5}{{24}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Rendimiento para un value de 0.0, im\IeC {\'a}genes normales.\relax }}{14}}
+\newlabel{fig:exp1-2}{{25}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Rendimiento para un value de 0.3, im\IeC {\'a}genes normales.\relax }}{14}}
+\newlabel{fig:exp1-1}{{26}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Rendimiento para un value de 0.5, im\IeC {\'a}genes normales.\relax }}{14}}
+\newlabel{fig:exp1-0.5}{{27}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Rendimiento para un value de 0.8, im\IeC {\'a}genes normales.\relax }}{14}}
+\newlabel{fig:exp1-0.5}{{28}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Rendimiento para un value de 0.5, im\IeC {\'a}genes blancas.\relax }}{14}}
+\newlabel{fig:exp1-0.5}{{29}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}HSL}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Implementaci\IeC {\'o}n}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Rendimiento para un H de 0, im\IeC {\'a}genes normales.\relax }}{15}}
+\newlabel{fig:exp1-1}{{30}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Rendimiento para un 0 de 300, im\IeC {\'a}genes normales.\relax }}{15}}
+\newlabel{fig:exp1-0.5}{{31}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Rendimiento para un H de 0, im\IeC {\'a}genes normales.\relax }}{16}}
+\newlabel{fig:exp1-1}{{32}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces Rendimiento para un H de 240, im\IeC {\'a}genes normales.\relax }}{16}}
+\newlabel{fig:exp1-0.5}{{33}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces Rendimiento para un H de 360, im\IeC {\'a}genes negras\relax }}{16}}
+\newlabel{fig:exp1-1}{{34}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces Rendimiento para un 0 de 360, im\IeC {\'a}genes normales.\relax }}{16}}
+\newlabel{fig:exp1-0.5}{{35}{16}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Variaci\IeC {\'o}n 1}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces Rendimiento para un H de 360, im\IeC {\'a}genes normales.\relax }}{17}}
+\newlabel{fig:exp1-1}{{36}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces Rendimiento para un H de 360, im\IeC {\'a}genes normales.\relax }}{17}}
+\newlabel{fig:exp1-0.5}{{37}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Variaci\IeC {\'o}n 2}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces Rendimiento para un H de 360, im\IeC {\'a}genes normales.\relax }}{17}}
+\newlabel{fig:exp1-1}{{38}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces Rendimiento para un H de 360, im\IeC {\'a}genes normales, variaci\IeC {\'o}n 2.\relax }}{17}}
+\newlabel{fig:exp1-0.5}{{39}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4}Experimentos Futuros}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusiones y trabajo futuro}{18}}
